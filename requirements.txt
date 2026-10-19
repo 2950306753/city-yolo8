@@ -1,0 +1,6 @@
+# AI生成
+# 市容环卫综合乱象检测 —— 依赖聚合入口
+# 训练与推理依赖
+-r code/requirements.txt
+# 智能体 Web 服务依赖（可选，仅需部署在线服务时安装）
+# -r code/requirements-web.txt

@@ -1,0 +1,50 @@
+# ---- 赛题数据（不随仓库分发）----
+train_set/
+test_set/
+output/
+
+# ---- 训练与推理运行态产物 ----
+runs/
+work/
+result/*.json
+!result/example_result.json
+*.log
+
+# ---- 模型权重（大文件，走 Release / 自行训练）----
+*.pt
+*.onnx
+*.engine
+*.torchscript
+code/models/*.pt
+
+# ---- 运行时状态 ----
+.officeace-agent-runtime.json
+code/.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pth
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
